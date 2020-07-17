@@ -89,11 +89,11 @@ rss: false
 # Specify the date when the site was setup
 #since: 2015
 
-# icon between year and author @Footer
-authoricon: heart
+# icon between year and author @Footer http://www.fontawesome.com.cn/faicons/
+authoricon: heartbeat
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -406,8 +406,8 @@ wildfire:
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
-  theme: light # or dark
-  locale: en # or other locales, e.g. zh-CN
+  theme: darl # or dark
+  locale: zh-CN # or other locales, e.g. zh-CN
   defaultAvatarURL:
 # Any question?
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
@@ -501,7 +501,7 @@ facebook_comments_plugin:
   enable: false
   num_of_posts: 10  # min posts num is 1
   width: 100%       # default width is 550px
-  scheme: light     # default scheme is light (light or dark)
+  scheme: dark     # default scheme is light (light or dark)
 
 # VKontakte API Support.
 # To get your AppID visit https://vk.com/editapp?act=create
